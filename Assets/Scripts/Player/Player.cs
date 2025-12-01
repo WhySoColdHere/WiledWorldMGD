@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
     {
         // If player input is 'A', then moveInput.x will be equals to -1, if 'D', then moveInput.x == 1, else moveInput.x == 0.
         // Thats why we are multiplying speed by moveInput.x, to move character in the current direction with speed.
+
         float targetSpeed = moveInput.x * speed;
         rb.linearVelocity = new Vector2(targetSpeed, rb.linearVelocity.y);
     }
