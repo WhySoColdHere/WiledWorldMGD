@@ -1,0 +1,30 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[探]Logs/
+/[Mm]emoryCaptures/
+/UserSettings/
+
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.opendb
+*.VC.db
+
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+
+# VS Code специфичные файлы
+.vscode/
+.history/
+*.code-workspace
